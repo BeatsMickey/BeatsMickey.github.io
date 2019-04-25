@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+.header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+border: 1px solid #ececec;
+background-color: #ffffff;
+    height: 100px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.header__left {
+        display: flex;
+    align-items: center;
+}
+
+.logo {
+        display: flex;
+    align-items: center;
+    margin-right: 37px;
+    color: #222222;
+font-size: 27px;
+font-weight: 300;
+text-transform: uppercase;
+}
+
+.header__form {
+        display: flex;
+    align-items: center;
+}
+
+.logo-d {
+    color: #f16d7f;
+font-weight: 400;
+letter-spacing: 0.68px;
+}
+
+.button {
+    background-color: #f16d7f;
+    color: #ffffff;
+font-size: 15px;
+font-weight: 400;
+padding: 12px 19px;
+letter-spacing: 0.38px;
+}
+
+.header__right {
+        display: flex;
+    align-items: center;
+}
+
+.cart {
+    margin-right: 26px;
+}
+
+.nav {
+    background-color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.menu__link {
+    padding: 20px;
+    display: block;
+    color: #222222;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.menu__link:hover {
+    color: #f16d7f;
+}
+
+.promo {
+    height: 613px;
+    background-color: #e8e8e8;
+}
+
+.promo-content {
+    background-image: url(img/promo.jpg);
+    height: 100%;
+    background-position: 0 -51px;
+}
+
+.promo__lux {
+    color: #222222;
+font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+    line-height: 31px;
+}
+
+.promo__brand {
+    color: #222222;
+font-size: 60px;
+font-weight: 700;
+text-transform: uppercase;
+        line-height: 45px;
+    margin-bottom: 19px;
+}
+
+.pink {
+    color: #f16d7f;
+}
+
+.promo__text {
+    margin-top: 224px;
+    float: left;
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
