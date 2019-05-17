@@ -11,11 +11,36 @@
 	<header class="header">
         <div class="container header-flex">
             <div class="header__left">
-                <a class="logo" href="index.html"><img src="img/logo.png" alt="logo">BRAN<span class="logo-d">D</span></a>
+                <a class="logo" href="#"><img src="img/logo.png" alt="logo">BRAN<span class="logo-d">D</span></a>
                 <form class="header__form" action="#">
-                    <div class="browse">Browse<i class="fas fa-caret-down"></i></div>
+                    <div class="browse">Browse<i class="fas fa-caret-down arrow"></i>
+						<div class="drop drop_browse">
+							<div class="drop__flex">
+								<h3 class="drop__h3">WOMEN</h3>
+								<ul class="drop__menu">
+									<li><a href="#" class="drop__link">Dresses</a></li>
+									<li><a href="#" class="drop__link">Tops</a></li>
+									<li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+									<li><a href="#" class="drop__link">Jackets/Coats</a></li>
+									<li><a href="#" class="drop__link">Blazers</a></li>
+									<li><a href="#" class="drop__link">Denim</a></li>
+									<li><a href="#" class="drop__link">Leggings/Pants</a></li>
+								</ul>
+								<h3 class="drop__h3">MAN</h3>
+								<ul class="drop__menu">
+									<li><a href="#" class="drop__link">Dresses</a></li>
+									<li><a href="#" class="drop__link">Tops</a></li>
+									<li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+									<li><a href="#" class="drop__link">Jackets/Coats</a></li>
+									<li><a href="#" class="drop__link">Blazers</a></li>
+									<li><a href="#" class="drop__link">Denim</a></li>
+									<li><a href="#" class="drop__link">Leggings/Pants</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
                   	<input type="text" class="input" placeholder="Search for item...">
-                    <div class="search"><i class="fas fa-search search1"></i></div>
+                    <div class="search"><i class="fas fa-search search__i"></i></div>
                 </form>
             </div>
             <div class="header__right">
@@ -27,7 +52,7 @@
     <nav class="nav">
         <ul class="menu">
             <li class="menu__list"><a href="index.html" class="menu__link">Home</a></li>
-            <li class="menu__list"><a href="#" class="menu__link menu_product">Man</a></li>
+            <li class="menu__list"><a href="#" class="menu__link menu__link-active">Man</a></li>
             <li class="menu__list"><a href="SinglePage.html" class="menu__link">Women</a></li>
             <li class="menu__list"><a href="#" class="menu__link">Kids</a></li>
             <li class="menu__list"><a href="#" class="menu__link">Accoseriese</a></li>
@@ -35,15 +60,15 @@
             <li class="menu__list"><a href="#" class="menu__link">Hot Deals </a></li>
         </ul>
     </nav>
-	<section class="newArrivalsProduct">
-		<div class="newArrivals1">
-			<div class="container newArrivals1_flex">
-				<div class="newArrivals1_left colorpink">NEW ARRIVALS</div>
-				<div class="newArrivals1_right"><a href="#" class="newArrivals1_menu">HOME</a><span class="slash">&nbsp;/&nbsp;</span><a href="#" class="newArrivals1_menu">MEN</a><span class="slash">&nbsp;/&nbsp;</span><a href="#" class="colorpink">NEW ARRIVALS</a></div>
+	<section class="productsPage">
+		<div class="productsPage__menu">
+			<div class="container menu-products">
+				<div class="menu-products__left colorpink">NEW ARRIVALS</div>
+				<div class="menu-products__right"><a href="#" class="menu-products__menu">HOME</a><span class="menu-products__slash">&nbsp;/&nbsp;</span><a href="#" class="menu-products__menu">MEN</a><span class="menu-products__slash">&nbsp;/&nbsp;</span><a href="#" class="colorpink">NEW ARRIVALS</a></div>
 			</div>
 		</div>
-		<div class="newArrivalsProduct_flex container">
-			<div class="nav_product">
+		<div class="productsPage-flex container">
+			<div class="productsPage-flex__nav">
 				<details>
 					<summary class="summary"><p class="summary_text">CATEGORY</p><i class="fas fa-caret-down summary_text summary_arrow"></i></summary>
 					<ul class="summary_ul">
@@ -99,18 +124,18 @@
 					</ul>
 				</details>
 			</div>
-			<div class="product">
-				<div class="product_setup">
-					<article class="trendingNow">
-						<p class="product_setup_text">TRENDING NOW</p>
-						<div class="trendingNowList">
+			<div class="productsPage-flex__mainblock">
+				<div class="productsPage-flex__setup">
+					<article class="setup-blocks">
+						<p class="setup-blocks__head">TRENDING NOW</p>
+						<div class="setup-blocks__list">
 							<a href="#">Bohemian</a><span class="slash">&nbsp;|&nbsp;</span><a href="#">Florial</a><span class="slash">&nbsp;|&nbsp;</span><a href="#">Lace</a><br>
 							<a href="#">Florial</a><span class="slash">&nbsp;|&nbsp;</span><a href="#">Lace</a><span class="slash">&nbsp;|&nbsp;</span><a href="#">Bohemian</a>
 						</div>
 					</article>
-					<article class="size">
-						<p class="product_setup_text">SIZE</p>
-						<div class="sizeList">
+					<article class="setup-blocks">
+						<p class="setup-blocks__head">SIZE</p>
+						<div class="setup-blocks__list">
 							<label for="sport">
 								<input id="sport" type="checkbox"> XXS </label>
 							<label for="turist">
@@ -127,9 +152,9 @@
 								<input id="it" type="checkbox"> XXL </label>
 						</div>
 					</article>
-					<article class="price1">
-						<p class="product_setup_text">PRICE</p>
-						<div class="trendingNowList">
+					<article class="setup-blocks">
+						<p class="setup-blocks__head">PRICE</p>
+						<div class="setup-blocks__list">
 							<form action="#" oninput="result.value=(range.value)">
 								<input id="range" type="range" value="5" step="0.1" />
 								<br>
@@ -140,10 +165,10 @@
 						</div>
 					</article>
 				</div>
-				<div class="product_sort">
-					<div class="product_sort2">
-						<div class="sortBy_name">Sort By</div>
-                    	<input placeholder="Name" class="sortBy" id="fruit" list="dl_fruits">
+				<div class="product-sort">
+					<div class="product-sort__block">
+						<div class="product-sort__name">Sort By</div>
+                    	<input placeholder="Name" class="product-sort__sortBy" id="fruit" list="dl_fruits">
 						<datalist id="dl_fruits">
 							<option label="Яблоко" value="apple"></option>
 							<option label="Ананас" value="ananas"></option>
@@ -153,9 +178,9 @@
 							<option label="Апельсин" value="Orange"></option>
 						</datalist>
 					</div>
-						<div class="product_sort2">
-						<div class="sortBy_name">Show</div>
-                    	<input placeholder="09" class="sortBy" id="fruit" list="dl_fruits">
+						<div class="product-sort__block">
+						<div class="product-sort__name">Show</div>
+                    	<input placeholder="09" class="product-sort__sortBy" id="fruit" list="dl_fruits">
 						<datalist id="dl_fruits">
 							<option label="Яблоко" value="apple"></option>
 							<option label="Ананас" value="ananas"></option>
@@ -167,7 +192,7 @@
 					</div>
 				</div>
 					<div class="product-box">
-						<div class="product1">
+						<div class="product">
 							<a href="#"><img class="product__img" src="img/Layer_43.jpg" alt="photo product"></a>
 							<div class="product__text">
 								<a href="#" class="product__name">Mango  People  T-shirt</a>
@@ -175,7 +200,7 @@
 							</div>
 							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
 						</div>
-						<div class="product1">
+						<div class="product">
 							<a href="#"><img class="product__img" src="img/Layer_44.jpg" alt="photo product"></a>
 							<div class="product__text">
 								<a href="#" class="product__name">Mango  People  T-shirt</a>
@@ -183,7 +208,7 @@
 							</div>
 							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
 						</div>
-						<div class="product1">
+						<div class="product">
 							<a href="#"><img class="product__img" src="img/Layer_45.jpg" alt="photo product"></a>
 							<div class="product__text">
 								<a href="#" class="product__name">Mango  People  T-shirt</a>
@@ -191,7 +216,7 @@
 							</div>
 							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
 						</div>
-						<div class="product1">
+						<div class="product">
 							<a href="#"><img class="product__img" src="img/Layer_46.jpg" alt="photo product"></a>
 							<div class="product__text">
 								<a href="#" class="product__name">Mango  People  T-shirt</a>
@@ -199,7 +224,7 @@
 							</div>
 							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
 						</div>
-						<div class="product1">
+						<div class="product">
 							<a href="#"><img class="product__img" src="img/Layer_47.jpg" alt="photo product"></a>
 							<div class="product__text">
 								<a href="#" class="product__name">Mango  People  T-shirt</a>
@@ -207,7 +232,7 @@
 							</div>
 							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
 						</div>
-						<div class="product1">
+						<div class="product">
 							<a href="#"><img class="product__img" src="img/Layer_48.jpg" alt="photo product"></a>
 							<div class="product__text">
 								<a href="#" class="product__name">Mango  People  T-shirt</a>
@@ -215,7 +240,7 @@
 							</div>
 							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
 						</div>
-						<div class="product1">
+						<div class="product">
 							<a href="#"><img class="product__img" src="img/Layer_49.jpg" alt="photo product"></a>
 							<div class="product__text">
 								<a href="#" class="product__name">Mango  People  T-shirt</a>
@@ -223,7 +248,7 @@
 							</div>
 							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
 						</div>
-						<div class="product1">
+						<div class="product">
 							<a href="#"><img class="product__img" src="img/Layer_50.jpg" alt="photo product"></a>
 							<div class="product__text">
 								<a href="#" class="product__name">Mango  People  T-shirt</a>
@@ -231,7 +256,7 @@
 							</div>
 							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
 						</div>
-						<div class="product1">
+						<div class="product">
 							<a href="#"><img class="product__img" src="img/Layer_51.jpg" alt="photo product"></a>
 							<div class="product__text">
 								<a href="#" class="product__name">Mango  People  T-shirt</a>
@@ -252,76 +277,76 @@
 		</div>
 	</section>
 	<div class="promo_product">
-		<div class="plus_product1 container">
-			<div class="promo_product_block1">
+		<div class="promo_product-flex container">
+			<div class="promo_product-flex__block">
 				<div class="promo_product_img"><img src="img/Forma_1.png" alt="forma"></div>
-				<article class="promo_product_text">
-					<p class="text11">Free Delivery</p>
-					<p class="text12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, odio. Accusamus sequi aliquid, cumque.</p>
+				<article class="promo_product-flex__text">
+					<p class="promo-block__head">Free Delivery</p>
+					<p class="promo-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, odio. Accusamus sequi aliquid, cumque.</p>
 				</article>
 			</div>
-			<div class="promo_product_block1">
+			<div class="promo_product-flex__block">
 				<div class="promo_product_img"><img src="img/Forma_2.png" alt="forma"></div>
-				<article class="promo_product_text">
-					<p class="text11">Free Delivery</p>
-					<p class="text12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, odio. Accusamus sequi aliquid, cumque.</p>
+				<article class="promo_product-flex__text">
+					<p class="promo-block__head">Free Delivery</p>
+					<p class="promo-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, odio. Accusamus sequi aliquid, cumque.</p>
 				</article>
 			</div>
-			<div class="promo_product_block1">
+			<div class="promo_product-flex__block">
 				<div class="promo_product_img"><img src="img/Forma_3.png" alt="forma"></div>
-				<article class="promo_product_text">
-					<p class="text11">Free Delivery</p>
-					<p class="text12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, odio. Accusamus sequi aliquid, cumque.</p>
+				<article class="promo_product-flex__text">
+					<p class="promo-block__head">Free Delivery</p>
+					<p class="promo-block__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, odio. Accusamus sequi aliquid, cumque.</p>
 				</article>
 			</div>
 		</div>
 	</div>
 	<footer>
 		<div class="SubscribeAndReview">
-			<div class="container main-product">
+			<div class="container SubscribeAndReview-flex">
 				<div class="review">
-					<div class="reviewPhoto">
+					<div class="review__photo">
 						<img src="img/face.png" alt="face">
 					</div>
-					<div class="reviewText">
-						<p class="review_text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae laudantium accusamus, provident aliquam minima."</p>
-						<p class="review_name">Bin Burhan</p>
-						<p class="review_address">Dhaka, Bd</p>
+					<div class="review__block">
+						<p class="review__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi repudiandae laudantium accusamus, provident aliquam minima."</p>
+						<p class="review__name">Bin Burhan</p>
+						<p class="review__address">Dhaka, Bd</p>
 					</div>
 				</div>
 				<article class="subscribe">
-					<p class="subscribe_text1">SUBSCRIBE</p>
-					<p class="subscribe_text2">FOR OUR NEWLETTER AND PROMOTION</p>
-					<form class="subscribe_form" action="#">
-                  		<input type="text" class="input_subscribe" placeholder="Enter Your Email">
-                    	<div class="enter_subscribe"><p>Subscribe</p></div>
+					<p class="subscribe__head">SUBSCRIBE</p>
+					<p class="subscribe__text">FOR OUR NEWLETTER AND PROMOTION</p>
+					<form class="subscribe__form" action="#">
+                  		<input type="text" class="subscribe__input" placeholder="Enter Your Email">
+                    	<div class="subscribe__enter"><p>Subscribe</p></div>
                 	</form>
 				</article>
 			</div>
 		</div>
 		<div class="container aboutUs">
-			<div class="brand">
-				<a class="logo2" href="#"><img src="img/logo.png" alt="logo">BRAN<span class="logo-d">D</span></a>
-				<p class="brand_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, aliquam corporis molestias blanditiis necessitatibus amet dolor distinctio voluptate? Quae quibusdam perspiciatis ab similique facere alias pariatur tenetur repudiandae explicabo accusamus. Voluptate, quasi, officia. Itaque porro quasi, id assumenda facere repudiandae.</p>
+			<div class="aboutUs__brand">
+				<a class="logo" href="#"><img src="img/logo.png" alt="logo">BRAN<span class="logo-d">D</span></a>
+				<p class="aboutUs__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, aliquam corporis molestias blanditiis necessitatibus amet dolor distinctio voluptate? Quae quibusdam perspiciatis ab similique facere alias pariatur tenetur repudiandae explicabo accusamus. Voluptate, quasi, officia. Itaque porro quasi, id assumenda facere repudiandae.</p>
 			</div>
-			<article class="details_aboutUs company">
-				<p class="h">COMPANY</p>
+			<article class="aboutUs__details">
+				<p class="aboutUs__head">COMPANY</p>
 				<a href="#">Home</a>
 				<a href="#">Shop</a>
 				<a href="#">About</a>
 				<a href="#">How It Works</a>
 				<a href="#">Contact</a>
 			</article>
-			<article class="details_aboutUs information">
-				<p class="h">INFORMATION</p>
+			<article class="aboutUs__details">
+				<p class="aboutUs__head">INFORMATION</p>
 				<a href="#">Tearms & Condition</a>
 				<a href="#">Privacy Policy</a>
 				<a href="#">How to Buy</a>
 				<a href="#">How to Sell</a>
 				<a href="#">Promotion</a>
 			</article>
-			<article class="details_aboutUs category">
-				<p class="h">SHOP CATEGORY</p>
+			<article class="aboutUs__details">
+				<p class="aboutUs__head">SHOP CATEGORY</p>
 				<a href="#">Men</a>
 				<a href="#">Women</a>
 				<a href="#">Child</a>
@@ -330,9 +355,9 @@
 			</article>
 		</div>
 		<div class="coopSocial">
-			<div class="container coopSocial_flex">
-				<div class="coop">&copy; 2017 Brand All Rights Reserved.</div>
-				<div class="social">
+			<div class="container coopSocial-flex">
+				<div class="coopSocial-flex__coop">&copy; 2017 Brand All Rights Reserved.</div>
+				<div class="coopSocial-flex__social">
 					<a href="#"><i class="fab fa-facebook-f socialicon"></i></a>
 					<a href="#"><i class="fab fa-twitter socialicon"></i></a>
 					<a href="#"><i class="fab fa-instagram socialicon"></i></a>
