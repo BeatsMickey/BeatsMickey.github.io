@@ -44,15 +44,15 @@
                 </form>
             </div>
             <div class="header__right">
-                <a href="CartPage.html"><img class="cart" src="img/cart.svg" alt="cart"></a>
+                <a href="#"><img class="cart" src="img/cart.svg" alt="cart"></a>
                 <a href="CheckoutPage.html" class="button">My Account</a>
             </div>
         </div>
     </header>
-    <nav class="nav">
+	<nav class="nav">
         <ul class="menu">
             <li class="menu__list"><a href="index.html" class="menu__link">Home</a></li>
-            <li class="menu__list"><a href="#" class="menu__link">Man</a></li>
+            <li class="menu__list"><a href="#" class="menu__link menu__link-active">Man</a></li>
             <li class="menu__list"><a href="SinglePage.html" class="menu__link">Women</a></li>
             <li class="menu__list"><a href="#" class="menu__link">Kids</a></li>
             <li class="menu__list"><a href="#" class="menu__link">Accoseriese</a></li>
@@ -67,114 +67,139 @@
 				<div class="menu-products__right"><a href="#" class="menu-products__menu">HOME</a><span class="menu-products__slash">&nbsp;/&nbsp;</span><a href="#" class="menu-products__menu">MEN</a><span class="menu-products__slash">&nbsp;/&nbsp;</span><a href="#" class="colorpink">NEW ARRIVALS</a></div>
 			</div>
 		</div>
-		<div class="singlePage-slider">
-			<div class="singlePage-slider__button"><i class="fas fa-chevron-left singlePage-slider__Icon"></i></div>
-			<img src="img/newArrivalsslider.png" alt="sliderpic">
-			<div class="singlePage-slider__button"><i class="fas fa-chevron-right singlePage-slider__Icon"></i></div>
-		</div>
-		<div class="singlePage-details">
-			<div class="singlePage-details__invBlock"></div>
-			<div class="singlePage-details__mainBlock">
-				<arcticle class="singlePage-details__specification">
-					<p class="singlePage-details__head">WOMEN COLLECTION</p>
-					<div class="line">
-						<div class="line1"></div>
-						<div class="line2"></div>
-						<div class="line1"></div>
-					</div>
-					<p class="singlePage-details__name">MOSCHINO CHEAP AND CHIC</p>
-					<p class="singlePage-details__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione iusto, nemo aliquam repudiandae laborum sed earum velit vero tempora reprehenderit minus rem, sint? Laboriosam maiores ad nisi quasi, neque culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, explicabo autem maiores blanditiis! Nesciunt, sit corporis natus deleniti, laudantium cum praesentium possimus! Nobis excepturi amet accusamus, molestias laborum porro sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut nihil ex cumque aperiam beatae odio asperiores, id expedita. Maxime fuga doloremque, velit iure recusandae aliquid odit! Perspiciatis assumenda officiis, laudantium?</p>
-					<div class="singlePage-details__materialDesigner">
-						<p class="singlePage-details__materialDesignerText">MATERIAL:<span>COTTON</span></p><p class="singlePage-details__materialDesignerText">DESIGNER:<span>BINBURHAN</span></p>
-					</div>
-					<p class="singlePage-details__price">$561</p>
-				</arcticle>
-				<div class="singlePage-details__setup">
-					<div class="singlePage-details__setupColorSizeQuanity">
-						<div class="singlePage-details__choose">
-							<p>CHOOSE COLOR</p>
-							<input placeholder="Red" class="singlePage-details__sort" id="fruit" list="dl_fruits">
-							<datalist id="dl_fruits">
-								<option label="Яблоко" value="apple"></option>
-								<option label="Ананас" value="ananas"></option>
-								<option label="Абрикос" value="apricot"></option>
-								<option label="Арбуз" value="watermelon"></option>
-								<option label="Авокадо" value="avocado"></option>
-								<option label="Апельсин" value="Orange"></option>
-							</datalist>
-						</div>
-						<div class="singlePage-details__choose">
-							<p>CHOOSE SIZE</p>
-							<input placeholder="XXL" class="singlePage-details__sort" id="fruit" list="dl_fruits">
-							<datalist id="dl_fruits">
-								<option label="Яблоко" value="apple"></option>
-								<option label="Ананас" value="ananas"></option>
-								<option label="Абрикос" value="apricot"></option>
-								<option label="Арбуз" value="watermelon"></option>
-								<option label="Авокадо" value="avocado"></option>
-								<option label="Апельсин" value="Orange"></option>
-							</datalist>
-						</div>
-						<div class="singlePage-details__choose">
-							<p>QUANITY</p>
-							<input placeholder="2" class="singlePage-details__sort" id="fruit" list="dl_fruits">
-							<datalist id="dl_fruits">
-								<option label="Яблоко" value="apple"></option>
-								<option label="Ананас" value="ananas"></option>
-								<option label="Абрикос" value="apricot"></option>
-								<option label="Арбуз" value="watermelon"></option>
-								<option label="Авокадо" value="avocado"></option>
-								<option label="Апельсин" value="Orange"></option>
-							</datalist>
-						</div>
-					</div>
-					<div class="singlePage-details__AddToCart">
-						<i class="fas fa-cart-arrow-down singlePage-details__cart"></i>Add to Cart
-					</div>
+	</section>
+	<div class="cartPage-flex container">
+		<div class="cartPage-flex__mainBlock">
+			<div class="cartPage-flex__headings">
+				<div class="cartPage-flex__blockDetails">PRODUCT DETAILS</div>
+				<div class="cartPage-flex__blockName"></div>
+				<div class="cartPage-flex__block">UNITE PRICE</div>
+				<div class="cartPage-flex__block">QUANITY</div>
+				<div class="cartPage-flex__block">SHIPPING</div>
+				<div class="cartPage-flex__block">SUBTOTAL</div>
+				<div class="cartPage-flex__blockAction">ACTION</div>
+			</div>
+			<div class="cartPage-flex__product">
+				<img src="img/cartPic.jpg" alt="pic">
+				<div class="cartPage-flex__blockName">
+					<p class="cartPage-flex__name">MANGO</p>
+					<p class="cartPage-flex__colorSize">Color: <span>Red</span></p>
+					<p class="cartPage-flex__colorSize">Size: <span>XII</span></p>
+				</div>
+				<div class="cartPage-flex__block">
+					<p class="cartPage-flex__price">$150</p>
+				</div>
+				<div class="cartPage-flex__block">
+					<p class="cartPage-flex__quanity">$150</p>
+			  </div>
+				<div class="cartPage-flex__block">
+					<input type="text" class="cartPage-flex__shipping" placeholder="2">
+				</div>
+				<div class="cartPage-flex__block">
+					<p class="cartPage-flex__subtotal">$300</p>
+			  </div>
+				<div class="cartPage-flex__blockAction">
+					<i class="fas fa-times-circle cartPage-flex__action"></i>
 				</div>
 			</div>
-			<div class="singlePage-details__invBlock"></div>
-		</div>
-	</section>
-	<section class="youMayLikeAlso container">
-		<p class="youMayLikeAlso__text">YOU MAY LIKE ALSO</p>
-		<div class="youMayLikeAlso__block">
-			<div class="product-box">
-						<div class="product">
-							<a href="#"><img class="product__img" src="img/Rectangle_9_copy.jpg" alt="photo product"></a>
-							<div class="product__text">
-								<a href="#" class="product__name">Mango  People  T-shirt</a>
-								<p class="product__prise">$52.00</p>
-							</div>
-							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
-						</div>
-						<div class="product">
-							<a href="#"><img class="product__img" src="img/Rectangle_9_copy.jpg" alt="photo product"></a>
-							<div class="product__text">
-								<a href="#" class="product__name">Mango  People  T-shirt</a>
-								<p class="product__prise">$52.00</p>
-							</div>
-							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
-						</div>
-						<div class="product">
-							<a href="#"><img class="product__img" src="img/Rectangle_9_copy.jpg" alt="photo product"></a>
-							<div class="product__text">
-								<a href="#" class="product__name">Mango  People  T-shirt</a>
-								<p class="product__prise">$52.00</p>
-							</div>
-							<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
-						</div>
-				<div class="product">
-					<a href="#"><img class="product__img" src="img/Rectangle_9_copy.jpg" alt="photo product"></a>
-					<div class="product__text">
-						<a href="#" class="product__name">Mango  People  T-shirt</a>
-						<p class="product__prise">$52.00</p>
+			<div class="cartPage-flex__product">
+				<img src="img/cartPic.jpg" alt="pic">
+				<div class="cartPage-flex__blockName">
+					<p class="cartPage-flex__name">MANGO</p>
+					<p class="cartPage-flex__colorSize">Color: <span>Red</span></p>
+					<p class="cartPage-flex__colorSize">Size: <span>XII</span></p>
 				</div>
-				<a class="product__add" href="https://geekbrains.ru">Add to Cart</a>
+				<div class="cartPage-flex__block">
+					<p class="cartPage-flex__price">$150</p>
 				</div>
+				<div class="cartPage-flex__block">
+					<p class="cartPage-flex__quanity">$150</p>
+			  </div>
+				<div class="cartPage-flex__block">
+					<input type="text" class="cartPage-flex__shipping" placeholder="2">
+				</div>
+				<div class="cartPage-flex__block">
+					<p class="cartPage-flex__subtotal">$300</p>
+			  </div>
+				<div class="cartPage-flex__blockAction">
+					<i class="fas fa-times-circle cartPage-flex__action"></i>
+				</div>
+			</div>
+			<div class="cartPage-flex__product">
+				<img src="img/cartPic.jpg" alt="pic">
+				<div class="cartPage-flex__blockName">
+					<p class="cartPage-flex__name">MANGO</p>
+					<p class="cartPage-flex__colorSize">Color: <span>Red</span></p>
+					<p class="cartPage-flex__colorSize">Size: <span>XII</span></p>
+				</div>
+				<div class="cartPage-flex__block">
+					<p class="cartPage-flex__price">$150</p>
+				</div>
+				<div class="cartPage-flex__block">
+					<p class="cartPage-flex__quanity">$150</p>
+			  </div>
+				<div class="cartPage-flex__block">
+					<input type="text" class="cartPage-flex__shipping" placeholder="2">
+				</div>
+				<div class="cartPage-flex__block">
+					<p class="cartPage-flex__subtotal">$300</p>
+			  </div>
+				<div class="cartPage-flex__blockAction">
+					<i class="fas fa-times-circle cartPage-flex__action"></i>
+				</div>
+			</div>
 		</div>
+		<div class="cartPage-flex__buttons">
+			<div class="button_cart button">CLEAR SHOPPING CART</div>
+			<div class="button_cart button">CONTINUE SHOPPING</div>
 		</div>
-	</section>
+		<div class="cartPage-flex__setups">
+			<article class="cartPage-flex__adress cartPage-flex__setupBlock">
+				<p class="cartPage-flex__Heading">SHIPPING ADRESS</p>
+				<input placeholder="Bangladesh" class="cartPage-flex__setup" id="fruit" list="dl_fruits">
+				<datalist id="dl_fruits">
+					<option label="Яблоко" value="apple"></option>
+					<option label="Ананас" value="ananas"></option>
+					<option label="Абрикос" value="apricot"></option>
+					<option label="Арбуз" value="watermelon"></option>
+					<option label="Авокадо" value="avocado"></option>
+					<option label="Апельсин" value="Orange"></option>
+				</datalist>
+				<input placeholder="State" class="cartPage-flex__setup" id="fruit" list="dl_fruits">
+				<datalist id="dl_fruits">
+					<option label="Яблоко" value="apple"></option>
+					<option label="Ананас" value="ananas"></option>
+					<option label="Абрикос" value="apricot"></option>
+					<option label="Арбуз" value="watermelon"></option>
+					<option label="Авокадо" value="avocado"></option>
+					<option label="Апельсин" value="Orange"></option>
+				</datalist>
+				<input placeholder="Postcode/Zip" class="cartPage-flex__setup" id="fruit" list="dl_fruits">
+				<datalist id="dl_fruits">
+					<option label="Яблоко" value="apple"></option>
+					<option label="Ананас" value="ananas"></option>
+					<option label="Абрикос" value="apricot"></option>
+					<option label="Арбуз" value="watermelon"></option>
+					<option label="Авокадо" value="avocado"></option>
+					<option label="Апельсин" value="Orange"></option>
+				</datalist>
+				<div class="button button_setups">GET A QUOTE</div>
+			</article>
+			<article class="cartPage-flex__discount cartPage-flex__setupBlock">
+				<p class="cartPage-flex__Heading">COUPON DISCOUNT</p>
+				<p class="cartPage-flex__discountText">Enter your coupon code if you have one</p>
+				<input type="text" class="cartPage-flex__discountInput" placeholder="Code">
+				<div class="button button_setups">APPLY COUPON</div>
+			</article>
+			<div class="cartPage-flex__total cartPage-flex__setupBlock">
+				<div class="cartPage-flex__totalUpBlock">
+					<p class="cartPage-flex__subTotal">SUB TOTAL<span>$900</span></p>
+					<p class="cartPage-flex__grandTotal">GRAND TOTAL<span>$900</span></p>
+				</div>
+				<div class="button button_total">PROCEED TO CHECKOUT</div>
+			</div>
+		</div>
+	</div>
 	<footer>
 		<div class="SubscribeAndReview">
 			<div class="container SubscribeAndReview-flex">

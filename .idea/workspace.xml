@@ -20,39 +20,26 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="393">
-                  <caret line="475" column="23" selection-start-line="475" selection-start-column="23" selection-end-line="475" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#101#158#0" />
-                    <element signature="e#196#233#0" />
-                    <element signature="e#2326#2576#0" />
-                    <element signature="e#2691#3237#0" />
-                    <element signature="e#4491#4777#0" />
-                    <element signature="e#4850#4936#0" />
-                    <element signature="e#5846#6140#0" />
-                    <element signature="e#6975#7036#0" />
-                    <element signature="e#7120#7532#0" />
-                    <element signature="e#8491#9128#0" />
-                    <element signature="e#9138#9180#0" />
-                  </folding>
+                <state relative-caret-position="442">
+                  <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_product.sass">
+            <entry file="file://$PROJECT_DIR$/_cartPage.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="570">
-                  <caret line="180" column="18" lean-forward="true" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
+                <state relative-caret-position="34">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/_SinglePage.sass">
+            <entry file="file://$PROJECT_DIR$/_checkoutPage.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1972">
-                  <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+                <state relative-caret-position="717">
+                  <caret line="104" column="24" lean-forward="true" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -115,16 +102,20 @@
         <option value="$PROJECT_DIR$/index.sass" />
         <option value="$PROJECT_DIR$/img/_product.sass" />
         <option value="$PROJECT_DIR$/SinglePage.html" />
-        <option value="$PROJECT_DIR$/_vars.sass" />
-        <option value="$PROJECT_DIR$/_SinglePage.sass" />
         <option value="$PROJECT_DIR$/_product.sass" />
+        <option value="$PROJECT_DIR$/_SinglePage.sass" />
+        <option value="$PROJECT_DIR$/img/_cartPage.sass" />
+        <option value="$PROJECT_DIR$/_vars.sass" />
+        <option value="$PROJECT_DIR$/checkoutPage.sass" />
+        <option value="$PROJECT_DIR$/_cartPage.sass" />
+        <option value="$PROJECT_DIR$/_checkoutPage.sass" />
         <option value="$PROJECT_DIR$/style.sass" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1456" />
-    <option name="width" value="471" />
+    <option name="x" value="1454" />
+    <option name="width" value="473" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -197,22 +188,24 @@
       <workItem from="1557937951496" duration="965000" />
       <workItem from="1558007749744" duration="5863000" />
       <workItem from="1558069558444" duration="32387000" />
+      <workItem from="1558353337920" duration="14288000" />
+      <workItem from="1558424154627" duration="20853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73041000" />
+    <option name="totallyTimeSpent" value="108182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1456" y="0" width="471" height="1047" extended-state="0" />
+    <frame x="1454" y="0" width="473" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0729927" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.86440676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1761488" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1750547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -227,6 +220,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.111380145" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1750547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -235,8 +249,8 @@
     <entry file="file://$PROJECT_DIR$/index.sass" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/style.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -252,6 +266,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/product.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_product.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="180" column="18" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_SinglePage.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkoutPage.sass">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/_vars.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -259,40 +293,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_SinglePage.sass">
+    <entry file="file://$PROJECT_DIR$/_cartPage.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_product.sass">
+    <entry file="file://$PROJECT_DIR$/_checkoutPage.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="180" column="18" lean-forward="true" selection-start-line="180" selection-start-column="18" selection-end-line="180" selection-end-column="18" />
+        <state relative-caret-position="717">
+          <caret line="104" column="24" lean-forward="true" selection-start-line="104" selection-start-column="24" selection-end-line="104" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="475" column="23" selection-start-line="475" selection-start-column="23" selection-end-line="475" selection-end-column="23" />
-          <folding>
-            <element signature="e#101#158#0" />
-            <element signature="e#196#233#0" />
-            <element signature="e#2326#2576#0" />
-            <element signature="e#2691#3237#0" />
-            <element signature="e#4491#4777#0" />
-            <element signature="e#4850#4936#0" />
-            <element signature="e#5846#6140#0" />
-            <element signature="e#6975#7036#0" />
-            <element signature="e#7120#7532#0" />
-            <element signature="e#8491#9128#0" />
-            <element signature="e#9138#9180#0" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
         </state>
       </provider>
     </entry>
